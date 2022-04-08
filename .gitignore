@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+.history
+khoa-hoc-lap-trinh-vuejs
 
 # local env files
 .env.local
