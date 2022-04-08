@@ -1,5 +1,9 @@
 # dive-game
+Demo: [https://dice-game-vue.vercel.app/](https://dice-game-vue.vercel.app/)
 
+front-end:
+- Vue 2
+- Bootstrap vue
 ## Project setup
 ```
 npm install
