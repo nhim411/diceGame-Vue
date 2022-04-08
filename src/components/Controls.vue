@@ -1,14 +1,8 @@
 <template>
   <div class="wrapper-control">
-    <button class="control btn-new" v-on:click="startNewGame">
-      <i class="ion-ios-plus-outline"></i>New game
-    </button>
-    <button class="control btn-roll" v-on:click="rollDice">
-      <i class="ion-ios-loop"></i>Roll dice
-    </button>
-    <button class="control btn-hold" v-on:click="$emit('handleHoldScore')">
-      <i class="ion-ios-download-outline"></i>Hold
-    </button>
+    <button class="control btn-new" v-on:click="startNewGame">New game</button>
+    <button class="control btn-roll" v-on:click="rollDice">Roll dice</button>
+    <button class="control btn-hold" v-on:click="$emit('handleHoldScore')">Hold</button>
     <input
       type="number"
       placeholder="Final score"
@@ -48,6 +42,10 @@ export default {
 /**********************************************
 *** Control
 **********************************************/
+ion-icon {
+  font-size: 46px;
+  color: rgb(66, 185, 131);
+}
 .control {
   position: absolute;
   width: 200px;
