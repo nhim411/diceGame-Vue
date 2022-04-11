@@ -3,9 +3,11 @@
     <div class="rule">
       <h3>Luật chơi</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iure quia facere aut.
-        Nostrum fuga accusamus, minima, facilis explicabo minus, blanditiis eos nisi culpa optio
-        voluptates cumque ducimus in adipisci.
+        Chọn <b>NER GAME</b> để bắt đầu trò chơi. Ở mỗi lượt <b>ROLL DICE</b> điểm đổ được sẽ tính
+        trong điểm tạm thời (current), người chơi có thể chọn <b>HOLD</b> để cộng vào điểm chính
+        hoặc chọn <b>ROLL DICE</b> để tiếp tục để xúc xắc để có điểm cao hơn. Nếu người chơi đổ phải
+        điểm 1 ở ít nhất 1 con xúc sắc sẽ mất lượt chơi. Người đạt điểm <b>FINAL SCORE</b> sớm nhất
+        sẽ giành chiến thắng.
       </p>
       <button v-on:click="confirm" class="confirm">Đã hiểu</button>
     </div>
